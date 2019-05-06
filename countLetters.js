@@ -2,6 +2,7 @@ var inputStr = "lighthouse in the house";
 
 function countLetters(inputStr) {
   var noSpaces = inputStr.split(" ").join("").split("");
+  console.log(noSpaces);
   var objInput = {};
 
   noSpaces.forEach(function(count) {
